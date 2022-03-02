@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+#body{
+  max-width: 960px;
+  width: 100%;
+}
+#header {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.main-title{
+  font-size: 80px;
+  
+}
+.sub-title{
+  font-size: 48px;
+  color: pink;
+  margin-bottom: 80px;
+}
+.sec-title{
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+#mainvisual img{
+  width: 100%;
+  
+  height: 100%;
+  
+}
+#menu ul{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+#menu li{
+  font-size: 50px;  
+margin-right: 50px;
+
+}
+.contents {
+  text-align: center;
+  font-weight: normal;
+}
+#types ul{
+margin: 40px;
+text-align: center;
+}
+#types li{
+  font-size: 20px;
+}
+#dog ul{
+  display: flex;
+  text-align: center;
+  flex-wrap:wrap;
+  margin-bottom: 80px;
+  }
+#dog li{
+  width: 50%;
+}
+#dog img{
+    height:400px;
+}
+
+#fish ul{
+  display:flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+#fish li{
+  width: 50%;
+}
+#fish img{
+    height:400px;
+}
+
+#rabbit ul{
+  display:flex;
+  /* justify-content: center; */
+  text-align: center;
+  margin-bottom: 100px;
+}
+#rabbit li{
+  width: 100%;
+}
+#rabbit img{
+    height:400px;
+}
+#other ul{
+  display:flex;
+  /* justify-content: center; */
+  text-align: center;
+  margin-bottom: 100px;
+}
+#other li{
+  width: 100%;
+}
+#other img{
+    height:400px;
+}
+#contact dd input,
+#contact dd textarea {
+  border: 1px solid blue;
+  width: 70%;
+}
+#contact dd textarea {
+  height: 80px;
+}
+#contact dl{
+  display: flex;
+  flex-wrap:wrap;
+  margin-bottom:10px;
+  text-align: center;
+}
+
+#contact dt {
+  width: 15%;
+  margin-bottom: 30px;
+}
+#contact dd{
+  width: 85%;
+  margin-bottom: 30px;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input{
+  background: black;
+  color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 100px;
+  
+}
+#contact .button input:hover {
+  background: white;
+  color: black;
+}
+#footer {
+  text-align: center;
+  background: black;
+  color:white;
+  font-size: 10px;
+}
+@media screen and (max-width:800px) {
+  .main-title{
+    font-size: 40px;
+    
+  }
+  .sub-title{
+    font-size: 24px;
+    
+  }
+  .sec-title{
+    font-size: 30px;
+  }
+  #menu li{
+  font-size: 30px;  
+  margin-right: 10px;
+  }
+  
+  #contact dl{
+    flex-direction: column;
+    text-align: center;
+  }
+  #contact dt{
+    width:100%;
+  }
+  #contact dd{
+    width:100%;
+  }
+  #dog ul{
+    flex-direction: column;
+    
+  }
+  #dog li{
+    width: 100%;
+  }
+  #fish ul{
+    flex-direction: column;
+    
+  }
+  #fish li{
+    width: 100%;
+  }
+  #rabbit ul{
+    flex-direction: column;
+    
+  }
+  #other ul{
+    flex-direction: column;
+    
+  }
+}
